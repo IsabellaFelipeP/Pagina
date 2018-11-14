@@ -25,7 +25,7 @@
                 <ul class="nav navbar-nav ml-auto"  > <!--Classe que organiza a lista pra lado a lado-->
                     <li><a href="#" class="">Home</a></li>
                     <li><a href="Cadastro.php">Cadastrar Clientes</a></li>
-                    <li><a href="#">Clientes</a></li>
+                    <li><a href="Cliente.php">Clientes</a></li>
                 </ul>
                 </div>
             </div>

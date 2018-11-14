@@ -15,6 +15,7 @@
     <!--jquer - link cdn -->
 </head>
 
+<body>
 <form>
     <div class="container">
         <div class="page-header text-center form-group">
@@ -56,3 +57,6 @@
         </div>
     </div>
 </form>
+
+</body>
+</html>
