@@ -1,3 +1,11 @@
+
+<?php
+
+require_once('Functions.php');
+add();
+
+?>
+
 <!DOCTYPE HTML>
 <html lang="pt-br" xmlns="http://www.w3.org/1999/html">
 <head>
@@ -6,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="Marcador.css">
     <!--bootstrap - link cdn -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo BASEURL; ?>css/bootstrap.min.css">
 
     <!--jquer - link cdn -->
     <script src ="https://code.jquery.com/jquery-2.2.4.min.js"></script>
@@ -23,7 +32,7 @@
         </div>
 
         <div class="col-md-12">
-            <form>
+            <form action="Cadastro.php" method="post">
                 <!--Nome!-->
                 <div class="form-group">
                     <label for="nome">Nome:</label>
@@ -47,12 +56,12 @@
                     </label>
 
                     <label>
-                        <input type="radio" name="opcao"> Pessoa Física
+                        <input type="radio" name="opcao"> Pessoa Jurídica
                     </label>
                 </div>
 
-                <button type="submit" class="btn btn-success">Salvar</button>
-
+                <a class="btn btn-success" href="Cliente.php" role="button">Salvar</a>
+                <a class="btn btn-success" href="index.php" role="button">Voltar</a>
             </form>
         </div>
     </div>

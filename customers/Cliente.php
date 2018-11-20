@@ -22,6 +22,7 @@
             <ul>
                 <tr>Nome:</tr>
                 <tr>Cpf:</tr>
+
             </ul>
             </thead>
         </table>
